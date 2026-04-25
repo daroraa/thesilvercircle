@@ -1,0 +1,297 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Silver Circle — Meaningful Companionship Across Generations</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #FAFAF8;
+      color: #1A1A1F;
+      line-height: 1.6;
+    }
+
+    :root {
+      --mauve: #6B4A67;
+      --mauve-light: #F2EBF4;
+      --border: rgba(107, 74, 103, 0.14);
+      --mid: #5A5560;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      padding: 0 24px;
+    }
+
+    nav {
+      background: white;
+      border-bottom: 1px solid var(--border);
+      padding: 22px 0;
+    }
+
+    .logo {
+      font-family: 'Playfair Display', serif;
+      font-size: 32px;
+      font-weight: 500;
+      color: var(--mauve);
+    }
+
+    .btn {
+      padding: 12px 24px;
+      border-radius: 999px;
+      border: none;
+      cursor: pointer;
+      font-weight: 500;
+      font-size: 14px;
+    }
+
+    .btn-primary {
+      background: var(--mauve);
+      color: white;
+    }
+
+    .btn-secondary {
+      background: white;
+      border: 1px solid var(--border);
+      color: #1A1A1F;
+    }
+
+    .hero {
+      padding: 80px 0;
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1.2fr 0.8fr;
+      gap: 40px;
+      align-items: center;
+    }
+
+    h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 52px;
+      font-weight: 400;
+      line-height: 1.15;
+      margin-bottom: 18px;
+    }
+
+    h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 34px;
+      font-weight: 400;
+      margin-bottom: 18px;
+    }
+
+    p {
+      color: var(--mid);
+    }
+
+    .eyebrow {
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      color: var(--mauve);
+      font-weight: 600;
+      margin-bottom: 14px;
+    }
+
+    .hero-actions {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin-top: 28px;
+    }
+
+    .card {
+      background: white;
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 28px;
+    }
+
+    .section {
+      padding: 70px 0;
+    }
+
+    .waitlist-box {
+      background: #2A1F2E;
+      color: white;
+      border-radius: 24px;
+      padding: 48px;
+      text-align: center;
+    }
+
+    .waitlist-box p {
+      color: rgba(255,255,255,0.75);
+    }
+
+    ul {
+      padding-left: 18px;
+      color: var(--mid);
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    footer {
+      padding: 32px 0;
+      border-top: 1px solid var(--border);
+      background: white;
+    }
+
+    @media (max-width: 768px) {
+      .hero-grid {
+        grid-template-columns: 1fr;
+      }
+
+      h1 {
+        font-size: 38px;
+      }
+
+      h2 {
+        font-size: 28px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav>
+    <div class="container" style="display:flex; justify-content:space-between; align-items:center; gap:40px;">
+      <div class="logo">The Silver Circle</div>
+
+      <button
+        class="btn btn-primary"
+        onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLScPHlPumqMBVwyyeu3PDQhZpTjwLaXEkwVzX9mWfkWVokzIfA/viewform?usp=dialog', '_blank')">
+        Join Waitlist
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container hero-grid">
+
+      <div>
+        <div class="eyebrow">Launching in New Zealand</div>
+
+        <h1>Where every conversation matters</h1>
+
+        <p>
+          The Silver Circle connects older New Zealanders with trusted university students for genuine,
+          paid companionship — walks, coffee, hobbies, and meaningful human connection.
+        </p>
+
+        <div class="hero-actions">
+          <button
+            class="btn btn-primary"
+            onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLScPHlPumqMBVwyyeu3PDQhZpTjwLaXEkwVzX9mWfkWVokzIfA/viewform?usp=dialog', '_blank')">
+            I'm Looking for a Companion
+          </button>
+
+          <button
+            class="btn btn-secondary"
+            onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLScPHlPumqMBVwyyeu3PDQhZpTjwLaXEkwVzX9mWfkWVokzIfA/viewform?usp=dialog', '_blank')">
+            I'm a Student Companion
+          </button>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3 style="margin-bottom:14px;">Trusted by Families</h3>
+
+        <ul>
+          <li>Identity verified student companions</li>
+          <li>Police vetting + reference checks</li>
+          <li>Secure platform payments</li>
+          <li>Family visibility and support options</li>
+          <li>Human support team based in NZ</li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FOUNDER STORY -->
+  <section class="section">
+    <div class="container">
+
+      <div class="eyebrow">Why I Built This</div>
+
+      <h2>This started with something personal</h2>
+
+      <p>
+        I saw how loneliness affects older people quietly.
+        At the same time, students were looking for flexible and meaningful work
+        beyond another café shift.
+
+        The Silver Circle exists to solve both —
+        creating real connection for older people and purposeful paid work for students.
+      </p>
+
+    </div>
+  </section>
+
+  <!-- WAITLIST -->
+  <section class="section">
+    <div class="container">
+
+      <div class="waitlist-box">
+
+        <div class="eyebrow" style="color:#D4B8D0;">
+          Early Access Waitlist
+        </div>
+
+        <h2 style="color:white;">
+          Be part of the first launch cities
+        </h2>
+
+        <p>
+          Starting in Auckland, Wellington, and Christchurch.
+          Join the waitlist for priority access and launch updates.
+        </p>
+
+        <div class="hero-actions" style="justify-content:center;">
+
+          <button
+            class="btn btn-primary"
+            onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLScPHlPumqMBVwyyeu3PDQhZpTjwLaXEkwVzX9mWfkWVokzIfA/viewform?usp=dialog', '_blank')">
+            Join the Waitlist
+          </button>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <p>
+        <strong>The Silver Circle</strong><br>
+        hello@thesilvercircle.co.nz<br>
+        Auckland, New Zealand
+      </p>
+    </div>
+  </footer>
+
+</body>
+</html>
